@@ -1,0 +1,105 @@
+.item-list{
+    margin: 15px 0;
+    border: 3px solid rgba(198, 198, 198, 0.429);
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.dark-mode {
+    background: #272727 !important;
+    color: #d9d9d9 !important;
+    
+}
+
+.dark-mode button{
+    background: #ffffff00 !important;
+    color: #ffffff !important;
+    border:1px solid #ffffff74 ;
+    
+}
+.dark-mode .btn-outline-dark{
+    border: 1px solid #9f9f9f6d !important;
+    
+    
+}
+.dark-mode .btn-outline-dark:hover{
+    background: #fff9f95e !important;
+    color: #1f1f1f !important;
+    
+}
+.dark-mode input{
+    background: #00000009 !important;
+    border: 1px solid #9f9f9f6d !important;
+}
+.dark-mode input::placeholder{
+    color: #ffffff82 !important;
+}
+#change-mode{
+    position: sticky;
+    top: 10px !important;
+    left:  2% !important;
+    border: none;
+}
+.dark-mode .rounded-border:focus{
+    box-shadow: inset 0px 0px 10px 5px #7f7f7f64 !important;
+    border: none !important;
+}
+.dark-mode input{
+    color: #ffffff !important;
+    /* color: #00940067 !important; */
+}
+.Icon-copy{
+    top: 10px !important;
+    right: 10px !important;
+  
+}
+.Icon-close-box{
+    top: 5px !important;
+    left: 10px !important;
+   
+}
+.Icon-update-box{
+    top: 10px !important;
+    left: 50% !important;
+    transform: translateX(-50%);
+   
+}
+.Icon-align{
+    top: 40px;
+    left: -10%;
+    
+}
+.dark-mode .Icon-align{
+    color: #c1bfbf !important;
+}
+#list-do{
+    max-height: 45vh !important;overflow: auto !important;
+}
+#list-do::-webkit-scrollbar{
+    background-color: #5b5a5a2c;
+    width: 8px !important;
+    
+}#list-do::-webkit-scrollbar-track{
+    box-shadow: inset 0px -1px 13px #d9d9d9;
+    border-radius: 2px;
+}
+#list-do::-webkit-scrollbar-thumb{
+    box-shadow: inset 0px -1px 13px #1f1f1f;
+    border-radius: 3px;
+}body{
+    position: relative !important;
+}
+.guide{
+    position: absolute !important;
+    top:8px;
+    right: 3%;
+}
+
+  
+  
+
+ 
